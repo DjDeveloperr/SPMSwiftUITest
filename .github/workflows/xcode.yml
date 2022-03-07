@@ -16,4 +16,4 @@ jobs:
       - name: Archive
         run: |
           mkdir ~/xcout
-          xcodebuild -project Template.xcodeproj -scheme Template -archivePath ~/xcout/Template.xcarchive archive
+          xcodebuild -allowProvisioningUpdates -project Template.xcodeproj -scheme Template -archivePath ~/xcout/Template.xcarchive archive
