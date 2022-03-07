@@ -20,6 +20,7 @@
 		55AC5B3327D640C000615558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55AC5B3627D640C000615558 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55AC5B3E27D6456800615558 /* spm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = spm; sourceTree = "<group>"; };
+		55AC5B3F27D64E4C00615558 /* Template-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Template-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		55AC5B2E27D640BD00615558 /* Template */ = {
 			isa = PBXGroup;
 			children = (
+				55AC5B3F27D64E4C00615558 /* Template-Info.plist */,
 				55AC5B2F27D640BD00615558 /* TemplateApp.swift */,
 				55AC5B3127D640BD00615558 /* ContentView.swift */,
 				55AC5B3327D640C000615558 /* Assets.xcassets */,
@@ -282,6 +284,7 @@
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Template-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +314,7 @@
 				DEVELOPMENT_TEAM = 32Z9KZZ4PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Template-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
