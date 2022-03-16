@@ -19,4 +19,4 @@ jobs:
       - name: Archive
         run: |
           mkdir ~/xcout
-          xcodebuild archive -project Template.xcodeproj -scheme Template -configuration Debug -archivePath ~/xcout/Template.xcarchive
+          xcodebuild archive -project Template.xcodeproj -scheme Template -configuration Debug -archivePath ~/xcout/Template.xcarchive CODE_SIGNING_ALLOWED=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
